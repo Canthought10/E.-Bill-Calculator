@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="358dp"
+        android:layout_height="638dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:fontFamily="sans-serif-black"
+                android:text="HOTEL DEL ADARTSE"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="226dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/single" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="&quot;SINGLE BED-ROOM&quot;"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="118dp"
+                    android:fontFamily="cursive"
+                    android:text="Welcome to your serene sanctuary, perfect for solo travelers seeking comfort and style. Our thoughtfully designed single bedroom features a plush queen-sized bed, adorned with luxurious linens to ensure a restful night’s sleep. The room is tastefully decorated with modern furnishings, warm colors, and soothing artwork that create an inviting ambiance."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/book"
+                    android:layout_width="150dp"
+                    android:layout_height="43dp"
+                    android:backgroundTint="@color/cardview_dark_background"
+                    android:text="BOOK"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="376dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/dob" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="&quot;DOUBLE BED-ROOM&quot;"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:fontFamily="cursive"
+                    android:text="Our inviting double bedroom offers a perfect retreat for couples or friends. With two comfortable queen-sized beds, the room is spacious and thoughtfully designed for relaxation. Located in a convenient area, you’ll have easy access to local attractions and dining. Experience comfort and warmth in your home away from home—book your stay today!"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/book1"
+                    android:layout_width="150dp"
+                    android:layout_height="43dp"
+                    android:backgroundTint="@color/cardview_dark_background"
+                    android:text="BOOK"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="371dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/ddelux" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="&quot;DELUXE DOUBLE BED-ROOM&quot;"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="114dp"
+                    android:fontFamily="cursive"
+                    android:text="Indulge in our luxurious deluxe double bedroom, featuring two sumptuous king-sized beds dressed in premium linens for the ultimate comfort. Nestled in a prime location, enjoy easy access to top attractions and dining. Treat yourself to a memorable stay in style—book your deluxe experience today!"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/book2"
+                    android:layout_width="150dp"
+                    android:layout_height="43dp"
+                    android:backgroundTint="@color/cardview_dark_background"
+                    android:text="BOOK"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="336dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/suite" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="&quot;ELEGANT SUITE ROOM&quot;"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:text="Experience luxury in our spacious suite room, designed for ultimate comfort and relaxation. Featuring a separate living area and a plush king-sized bed, this elegantly appointed suite is perfect for both leisure and business travelers."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/book3"
+                    android:layout_width="150dp"
+                    android:layout_height="43dp"
+                    android:backgroundTint="@color/cardview_dark_background"
+                    android:text="BOOK"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="390dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/exec" />
+
+                <TextView
+                    android:id="@+id/textView0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="&quot;EXECUTIVE SUITE ROOM&quot;"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:fontFamily="cursive"
+                    android:text="Elevate your stay in our luxurious executive suite room, designed for discerning travelers. This spacious suite features a separate living area, a plush king-sized bed, and upscale furnishings for maximum comfort. Enjoy modern amenities, including a flat-screen TV, complimentary Wi-Fi, and a work desk, perfect for business needs."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/book4"
+                    android:layout_width="150dp"
+                    android:layout_height="43dp"
+                    android:backgroundTint="@color/cardview_dark_background"
+
+                    android:text="BOOK"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
