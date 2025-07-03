@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <color name="black">#009688</color>
     <color name="white">#FFC107</color>
+=======
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+>>>>>>> c2c6e4632cb4291024b0d5196e966d8f13e59b0d
 </resources>

@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Base.Theme.ELECTRICBILLCALCULATOR" parent="Theme.Material3.DayNight.NoActionBar">
+=======
+    <style name="Base.Theme.PROJECT_2024" parent="Theme.Material3.DayNight.NoActionBar">
+>>>>>>> c2c6e4632cb4291024b0d5196e966d8f13e59b0d
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>

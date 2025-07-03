@@ -3,11 +3,19 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.electricbillcalculator"
     compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.electricbillcalculator"
+=======
+    namespace = "com.example.project_2024"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "com.example.project_2024"
+>>>>>>> c2c6e4632cb4291024b0d5196e966d8f13e59b0d
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -40,4 +48,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+<<<<<<< HEAD
+=======
+    implementation("com.android.volley:volley:1.2.1")
+>>>>>>> c2c6e4632cb4291024b0d5196e966d8f13e59b0d
 }

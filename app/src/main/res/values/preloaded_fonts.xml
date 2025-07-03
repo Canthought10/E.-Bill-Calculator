@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+<<<<<<< HEAD
         <item>@font/abril_fatface</item>
         <item>@font/alata</item>
+=======
+        <item>@font/asset</item>
+>>>>>>> c2c6e4632cb4291024b0d5196e966d8f13e59b0d
     </array>
 </resources>
